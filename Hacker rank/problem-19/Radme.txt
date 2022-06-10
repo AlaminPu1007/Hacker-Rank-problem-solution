@@ -1,0 +1,3 @@
+
+# Pointers in C
+https://www.hackerrank.com/challenges/pointer-in-c/problem?isFullScreen=false

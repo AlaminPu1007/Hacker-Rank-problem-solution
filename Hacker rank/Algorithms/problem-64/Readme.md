@@ -1,14 +1,14 @@
-
 # Between Two Sets
+
 https://www.hackerrank.com/challenges/between-two-sets/problem
 
-** Problem : **
+**Problem :**
 There will be two arrays of integers. Determine all integers that satisfy the following two conditions: <br>
 
 The elements of the first array are all factors of the integer being considered<br>
 The integer being considered is a factor of all elements of the second array<br>
 
-** Solution : **
+**Solution :**
 
 for i = 1 to 100 <br>
 bool flag := true <br>
@@ -24,4 +24,4 @@ flag := false <br>
 if(flag) <br>
 result := result + 1 <br>
 
-return resutl <br>
+return result <br>

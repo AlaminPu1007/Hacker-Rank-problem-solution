@@ -14,18 +14,18 @@ result : 7 - 5 = 2 <br>
 
 **Approach :**
 
-    for i = 0 to price_len <br>
-    //make a key value pairs by vector  <br>
-      prices.push_back(make_pair(price[i], i))  <br>
+    for i = 0 to price_len
+    //make a key value pairs by vector
+      prices.push_back(make_pair(price[i], i))
 
-    // Sort those array of element  <br>
-    sort(prices.begin(), prices.end()) <br>
+    // Sort those array of element
+    sort(prices.begin(), prices.end())
 
-    for i = 0 to price_len - 1 <br>
+    for i = 0 to price_len - 1
 
-    key := prices[i + 1].first - prices[i].first <br>
+    key := prices[i + 1].first - prices[i].first
 
-    if (min > key && prices[i].second > prices[i + 1].second) <br>
-    min := prices[i].second > prices[i + 1].second <br>
+    if (min > key && prices[i].second > prices[i + 1].second)
+    min := prices[i].second > prices[i + 1].second
 
-    return min<br>
+    return min

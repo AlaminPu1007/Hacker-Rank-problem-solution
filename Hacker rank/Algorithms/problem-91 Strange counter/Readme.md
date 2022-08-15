@@ -1,0 +1,7 @@
+# Strange Counter
+
+problem link: https://www.hackerrank.com/challenges/strange-code/problem
+
+**Complexity :**<br>
+Time-Complexity: O(n)<br>
+Space-Complexity: O(1)<br>

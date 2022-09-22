@@ -11,3 +11,8 @@ problem link: https://www.hackerrank.com/challenges/countingsort2/problem
 
 - Time-Complexity: O(n.m)//where n = hash-map size , m = hash map value size
 - Space-Complexity: O(n)
+
+**Complexity using_library :**<br>
+
+- Time-Complexity: O(n.log(n))
+- Space-Complexity: O(1)

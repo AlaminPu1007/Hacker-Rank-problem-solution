@@ -1,6 +1,6 @@
 ## Quicksort-1-Partition
 
-[Visit problem](https://www.hackerrank.com/challenges/quicksort1/problem)
+[Open problem](https://www.hackerrank.com/challenges/quicksort1/problem)
 
 **Approach :**<br>
 
